@@ -13,7 +13,7 @@ class ExamService:
         self.state = {}
 
     def _ping(self):
-        hostname = "google.com"
+        hostname = "localhost"
         response = os.system("ping -c 1 " + hostname)
         return response
 
